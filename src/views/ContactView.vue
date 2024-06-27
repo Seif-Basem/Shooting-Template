@@ -1,5 +1,5 @@
 <template>
-  <div class="about" style="overflow: hidden">
+  <div class="contact" style="overflow: hidden">
     <div class="container">
       <!-- the heading -->
       <div class="head" data-aos="zoom-in">
@@ -127,52 +127,61 @@
             </g>
           </g>
         </svg>
-        <h1>ABOUT</h1>
+        <h1>contact</h1>
       </div>
-      <!-- start bio -->
-      <div class="bio" data-aos="fade" data-aos-delay="400">
-        <p>
-          we are <span>Bolt Design</span> we build templates using programming
-          languages
-        </p>
-      </div>
-      <!-- end bio -->
-      <!-- start team -->
-      <div class="team">
-        <h2 data-aos="fade" data-aos-delay="400">meet our team</h2>
-        <div class="our-team">
-          <div
-            class="box"
-            v-for="team in ourTeam"
-            :key="team.id"
-            :data-aos="team.aos"
-          >
-            <div class="photo">
-              <img :src="require(`@/assets/${team.img}`)" alt="team member" />
-            </div>
-            <div class="name">{{ team.name }}</div>
-            <div class="title">{{ team.title }}</div>
-          </div>
+      <!-- contact from -->
+      <div class="content">
+        <!-- put your email in "action" so it send to your email -->
+        <form
+          action="https://formsubmit.co/putYourEmail@here.com"
+          method="POST"
+          data-aos="fade-right"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_subject"
+            value="New Email From shooting"
+          />
+          <input
+            class="main-input"
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            autocomplete="given-name"
+            required
+          />
+          <input
+            class="main-input"
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            autocomplete="given-email"
+            required
+          />
+          <textarea
+            class="main-input"
+            name="message"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" onclick="sendEmail()" />
+        </form>
+        <div class="info" data-aos="fade-left">
+          <h4>GET IN TOUCH</h4>
+          <span class="phone">+012 345 678 99</span>
+          <span class="phone">+099 876 543 21</span>
+          <h4>WHERE WE ARE</h4>
+          <address>
+            Egyp, Giza, <br />
+            Inside The Sphinx, <br />
+            Room Number 220
+          </address>
         </div>
       </div>
-      <!-- end team -->
     </div>
   </div>
 </template>
 
 <style scoped>
-@import "../css/AboutStyle.css";
+@import "../css/ContactStyle.css";
 </style>
-
-<script>
-// team data
-import ourTeamData from "../json/ourTeam.json";
-
-export default {
-  data() {
-    return {
-      ourTeam: ourTeamData,
-    };
-  },
-};
-</script>

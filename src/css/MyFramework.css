@@ -1,0 +1,89 @@
+/***************************** My Own Frame Work *****************************/
+
+/* To Control The Padding ***********************************/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* To Scroll Smoothly ***************************************/
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* To Make No Decorations To The Links ********************/
+
+a {
+    text-decoration: none;
+}
+
+
+/* To Make No Decorations To The Lists ********************/
+
+ul {
+    list-style: none;
+}
+
+
+/* To Make The All Content In The Middle Of The Screen  *******/
+/* And All The Media To Fit All Screen Sizes ****************/
+
+.mycontainer {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px) /* small Screen */ {
+    .mycontainer {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) /* medium Screen */ {
+    .mycontainer {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) /* large Screen */ {
+    .mycontainer {
+        width: 1170px;
+    }
+}
+@media (min-width: 1800px) /* x large Screen */ {
+    .mycontainer {
+        width: 1770px;
+    }
+}
+
+/*********************** flex ***********************/
+
+.myf-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myf-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********************** grid ***********************/
+
+.g-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+.g-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+}

@@ -1,0 +1,141 @@
+.services  {
+  padding-top: 80px;
+}
+.services .head {
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
+.services .head svg {
+  width: 169px;
+  height: 80px;
+}
+.services .head svg path {
+  fill: var(--white);
+}
+.services .head h1 {
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: -6px;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--white);
+}
+/* bio style */
+.services .bio {
+  background-color: var(--light-black);
+  padding: 10px;
+  font-weight: 700;
+  font-size: 55px;
+  text-transform: uppercase;
+  width: 800px;
+  margin: 100px auto;
+  line-height: 1;
+}
+/* state style */
+.services .state {
+  margin: 100px 0;
+}
+.services .state h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.services .state .state-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.services .state .state-content {
+  width: 250px;
+  background-color: var(--light-black);
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+.services .state .state-content::before,
+.services .state .state-content::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 0;
+  background-color: var(--light-blue);
+  transition: 0.4s;
+}
+.services .state .state-content::before {
+  top: 0;
+  left: 0;
+}
+.services .state .state-content::after {
+  bottom: 0;
+  right: 0;
+}
+.services .state .state-content:hover::before,
+.services .state .state-content:hover::after {
+  height: 100%;
+}
+.services .state .state-content svg {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  fill: white;
+}
+.services .state .state-content .number {
+  color: var(--light-blue);
+  font-size: 60px;
+  font-weight: 700;
+  margin: -9px;
+}
+.services .state .state-content .text {
+  font-family: var(--fancy-font);
+  font-size: 24px;
+}
+/* services section style */
+.services .services-section {
+  margin: 100px 0;
+}
+.services .services-section h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.services .services-section .services-info{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  grid-gap: 100px;
+  justify-items: center;
+}
+/* media query of portfolio */
+@media (max-width: 1199px) {
+  .services .state .state-content {
+    width: 200px;
+  }
+}
+@media (max-width: 991px) {
+  .services .state .state-info {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 767px) {
+  .services .head svg{
+    height: 43px;
+  }
+  .services .head h1 {
+    font-size: 36px;
+  }
+  .services .bio {
+    width: 300px;
+    font-size: 35px;
+  }
+  .services .state .state-info {
+    justify-content: center;
+  }
+  .services .state .state-content {
+    width: 300px;
+  }
+}

@@ -1,0 +1,118 @@
+.contact  {
+  padding: 80px 0;
+}
+.contact .head {
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
+.contact .head svg {
+  width: 169px;
+  height: 80px;
+}
+.contact .head svg path {
+  fill: var(--white);
+}
+.contact .head h1 {
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: -6px;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--white);
+}
+/* contact form style */
+.contact .content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.contact .content form {
+  flex-basis: 70%;
+}
+.contact .content form input,
+.contact .content form textarea {
+  color: var(--white);
+}
+.contact .content form .main-input {
+  padding: 20px;
+  display: block;
+  border: 1px solid var(--half-white);
+  width: 100%;
+  margin-bottom: 30px;
+  caret-color: var(--light-blue);
+  background-color: var(--light-black);
+  font-weight: bold;
+}
+.contact .content form .main-input:focus {
+  outline: none;
+}
+.contact .content form .main-input::placeholder {
+  color: var(--half-white);
+}
+.contact .content form textarea.main-input {
+  height: 200px;
+}
+.contact .content form input[type='submit'] {
+  background-color: var(--light-blue);
+  color: var(--white);
+  padding: 20px;
+  text-transform: uppercase;
+  border: none;
+  display: flex;
+  margin-left: auto;
+  cursor: pointer;
+}
+.contact .content form input[type='submit']:hover {
+  background-color: #2885b8;
+}
+/* contact info style */
+.contact .content .info {
+  flex-basis: 25%;
+}
+.contact .content .info h4 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--white);
+}
+.contact .content .info .phone {
+  display: block;
+  color: var(--half-white);
+  margin-bottom: 10px;
+}
+.contact .content .info h4:nth-of-type(2) {
+  margin-top: 90px;
+}
+.contact .content .info address {
+  color: var(--half-white);
+  line-height: 2;
+}
+/* media query of conatct */
+@media (max-width: 767px) {
+  .contact .head svg{
+    height: 39px;
+  }
+  .contact .head h1 {
+    font-size: 32px;
+  }
+  .contact .content {
+    flex-direction: column;
+  }
+  .contact .content .info {
+    order: -1;
+    text-align: center;
+  }
+  .contact .content .info h4:nth-of-type(2) {
+    margin-top: 30px;
+  }
+  .contact .content .info address {
+    margin-bottom: 30px;
+  }
+  .contact .content form input[type='submit'] {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}

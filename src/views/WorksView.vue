@@ -1,5 +1,5 @@
 <template>
-  <div class="about" style="overflow: hidden">
+  <div class="works" style="overflow: hidden">
     <div class="container">
       <!-- the heading -->
       <div class="head" data-aos="zoom-in">
@@ -127,52 +127,144 @@
             </g>
           </g>
         </svg>
-        <h1>ABOUT</h1>
+        <h1>works</h1>
       </div>
-      <!-- start bio -->
+      <!-- stasrt bio -->
       <div class="bio" data-aos="fade" data-aos-delay="400">
         <p>
-          we are <span>Bolt Design</span> we build templates using programming
-          languages
+          Lorem ipsum, dolor sit amet adipisicing elit. Animi facere minima
+          dolor sit
         </p>
       </div>
       <!-- end bio -->
-      <!-- start team -->
-      <div class="team">
-        <h2 data-aos="fade" data-aos-delay="400">meet our team</h2>
-        <div class="our-team">
-          <div
-            class="box"
-            v-for="team in ourTeam"
-            :key="team.id"
-            :data-aos="team.aos"
-          >
-            <div class="photo">
-              <img :src="require(`@/assets/${team.img}`)" alt="team member" />
-            </div>
-            <div class="name">{{ team.name }}</div>
-            <div class="title">{{ team.title }}</div>
-          </div>
+      <!-- start brief -->
+      <div class="brief" data-aos="fade-right" data-aos-delay="400">
+        <div class="photos">
+          <img
+            class="card-1"
+            src="../assets/img/portfolio-2.webp"
+            alt="work images"
+          />
+          <img
+            class="card-2"
+            src="../assets/img/portfolio-4.webp"
+            alt="work images"
+          />
+          <img
+            class="card-3"
+            src="../assets/img/portfolio-5.webp"
+            alt="work images"
+          />
+        </div>
+        <div class="info" data-aos="fade-left" data-aos-delay="400">
+          <h3>Work brief</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+            itaque iusto aliquid dolore distinctio vero, adipisci modi earum
+            ipsam tempora consequuntur pariatur cumque maxime excepturi
+            molestias nesciunt voluptas quisquam officia.
+          </p>
         </div>
       </div>
-      <!-- end team -->
+      <!-- end brief -->
     </div>
+    <!-- start my work -->
+    <div class="my-work">
+      <div class="work">
+        <div class="left">
+          <span>web design</span>
+          <h2>
+            New template for <br />
+            web design
+          </h2>
+        </div>
+        <div class="right">
+          <img src="../assets/img/work-1.webp" alt="work" />
+          <span
+            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path
+                d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
+              /></svg
+          ></span>
+        </div>
+      </div>
+      <div class="work">
+        <div class="left">
+          <span>web design</span>
+          <h2>
+            New template for <br />
+            web design
+          </h2>
+        </div>
+        <div class="right">
+          <img src="../assets/img/work-2.webp" alt="work" />
+          <span
+            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path
+                d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
+              /></svg
+          ></span>
+        </div>
+      </div>
+      <div class="work">
+        <div class="left">
+          <span>web design</span>
+          <h2>
+            New template for <br />
+            web design
+          </h2>
+        </div>
+        <div class="right">
+          <img src="../assets/img/work-3.webp" alt="work" />
+          <span
+            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path
+                d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
+              /></svg
+          ></span>
+        </div>
+      </div>
+      <div class="work">
+        <div class="left">
+          <span>web design</span>
+          <h2>
+            New template for <br />
+            web design
+          </h2>
+        </div>
+        <div class="right">
+          <img src="../assets/img/work-4.webp" alt="work" />
+          <span
+            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path
+                d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
+              /></svg
+          ></span>
+        </div>
+      </div>
+      <div class="work">
+        <div class="left">
+          <span>web design</span>
+          <h2>
+            New template for <br />
+            web design
+          </h2>
+        </div>
+        <div class="right">
+          <img src="../assets/img/landing-3.webp" alt="work" />
+          <span
+            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path
+                d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
+              /></svg
+          ></span>
+        </div>
+      </div>
+    </div>
+    <!-- end my work -->
   </div>
 </template>
 
 <style scoped>
-@import "../css/AboutStyle.css";
+@import "../css/worksStyle.css";
 </style>
-
-<script>
-// team data
-import ourTeamData from "../json/ourTeam.json";
-
-export default {
-  data() {
-    return {
-      ourTeam: ourTeamData,
-    };
-  },
-};
-</script>

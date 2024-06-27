@@ -1,0 +1,288 @@
+.landing {
+  position: relative;
+}
+/* start style for img and overlay of the img slider */
+.landing img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  user-select: none;
+}
+.overlay-to-top,
+.overlay-to-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.overlay-to-top {
+  background: linear-gradient(0deg, rgba(0,0,0,0.8743872549019608) 0%, rgba(0,53,255,0) 100%);
+}
+.overlay-to-right {
+  background: linear-gradient(90deg, rgb(0 0 0 / 23%) 0%, rgba(0, 53, 255, 0) 100%);
+}
+/* end style for img and overlay of the img slider */
+/* start landing content */
+.landing .content {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  /* transform: translateY(-50%); */
+  text-align: start;
+  color: white;
+}
+.landing .content h1 {
+  font-size: 130px;
+  font-weight: 800;
+  line-height: 0.8;
+  margin-bottom: 30px;
+}
+.landing .content .info {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.landing .content .info a {
+  color: white;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.landing .content .info a:hover {
+  text-decoration: underline;
+}
+.landing .content .info .line {
+  width: 100px;
+  height: 2px;
+  background-color: white;
+}
+.landing .content .info .welcome {
+  font-size: 22px;
+  line-height: 1;
+}
+.landing .content .title {
+  font-size: 50px;
+  font-family: var(--fancy-font);
+  letter-spacing: 1.5px;
+}
+.landing .content .title {
+  text-transform: uppercase;
+}
+.landing .content .title span {
+  text-transform: lowercase;
+  font-style: italic;
+  font-size: 30px;
+  padding-right: 8px;
+}
+/* media queary landing content */
+@media (max-width: 991px) {
+  .landing .content h1 {
+    font-size: 80px;
+    margin-bottom: 25px;
+  }
+  .landing .content .info {
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  .landing .content .title {
+    font-size: 30px;
+  }
+  .landing .content .title span{
+    font-size: 20px;
+    padding-right: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .landing .content h1 {
+    font-size: 50px;
+  }
+  .landing .content .info {
+    gap: 10px;
+  }
+  .landing .content .info a {
+    font-size: 13px;
+  }
+  .landing .content .info .line {
+    width: 60px;
+  }
+  .landing .content .info .welcome {
+    font-size: 15px;
+  }
+  .landing .content .title {
+    font-size: 20px;
+  }
+  .landing .content .title span{
+    font-size: 10px;
+  }
+}
+/* end landing content */
+.about, /* white spacig of the home page */
+.services,
+.testimonials,
+.contactus {
+  padding: 60px 0;
+}
+/* arrows icon style so i can change its color in light & dark mode */
+.about .container svg,
+.services .container svg,
+.testimonials .container svg {
+  width: 80px;
+  height: 48px;
+}
+.about .container svg path,
+.services .container svg path,
+.testimonials .container svg path {
+  fill: var(--white);
+}
+/* start about section */
+.about .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 48px;
+  padding: 0 48px;
+}
+.about .content p {
+  width: 50%;
+  background-color: var(--light-black);
+  padding: 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+  z-index: 3;
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+.about .content .photos{
+  position: relative;
+}
+.about .content .photos img{
+  width: 400px;
+}
+.about .content .photos img:first-child {
+  transform: translate(400px, 10px);
+}
+.about .content .photos img:nth-child(2) {
+  transform: translate(-35px, 200px);
+  position: relative;
+  z-index: 2;
+}
+.about .content .photos img:last-child {
+  transform: translate(85px, -195px);
+}
+/* media queary about section */
+@media (max-width: 1399px) {
+  .about .content {
+    flex-direction: column;
+  }
+  .about .content p{
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  .about .content .photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+  }
+  .about .content .photos img:first-child {
+    transform: translate(0px, 0px);
+  }
+  .about .content .photos img:nth-child(2) {
+    transform: translate(0px, 0px);
+  }
+  .about .content .photos img:last-child {
+    transform: translate(0px, 0px);
+  }
+}
+@media (max-width: 767px) {
+  .about .content p{
+    width: 330px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .about .content .photos img{
+    width: 330px;
+  }
+}
+/* end about section */
+/* start services section*/
+.services .content {
+  margin: 0 auto;
+  padding: 80px 0;
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.services .box {
+  background-color: var(--light-black);
+  text-align: center;
+  padding: 33px 20px;
+  width: 350px;
+  border-top: 3px solid var(--light-blue);
+  position: relative;
+}
+.services .box .number {
+  position: absolute;
+  top: -27px;
+  left: 13px;
+  color: var(--perly-white);
+  font-size: 80px;
+  font-weight: 700;
+}
+.services .box img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.services .box h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.services .box p {
+  font-size: 17px;
+}
+/* end services section*/
+/* start sontact */
+.contactus {
+  background-color: var(--light-black);
+  text-align: center;
+}
+.contactus h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.contactus p {
+  color: var(--half-white);
+  margin-bottom: 40px;
+}
+.contactus a {
+  text-decoration: none;
+  color: black;
+  background-color: var(--light-blue);
+  padding: 15px 30px;
+  border-radius: 10px;
+  transition: opacity 0.4s;
+}
+.contactus a:hover {
+  opacity: 0.7;
+}
+/* end sontact */
+/* start testimonials section*/
+@media (max-width: 767px) {
+  .testimonials .container h1 {
+    font-size: 22px;
+  }
+}
+/* end testimonials section*/

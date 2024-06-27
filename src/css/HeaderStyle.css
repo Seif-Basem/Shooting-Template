@@ -1,0 +1,224 @@
+header {
+  background-color: var(--transparent);
+  transition: background-color 0.3s ease;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+/* wrapper */
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 48px;
+}
+/* logo */
+header .logo img {
+  width: 150px;
+}
+/* menu button */
+header .menu {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+header .menu .text {
+  color: white;
+}
+/* start burger icon */
+header .menu .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  width: 25px;
+}
+header .menu .icon span {
+  height: 1px;
+  background-color: white;
+  transition: 0.4s;
+}
+header .menu .icon .tape1 {
+  width: 100%;
+}
+header .menu .icon .tape2 {
+  width: 60%;
+}
+header .menu .icon .tape3 {
+  width: 30%;
+}
+/* "Menu" turn burger into arrow Animation */
+header .menu:hover .icon {
+  align-items: flex-end;
+  gap: 2px;
+}
+header .menu:hover .icon .tape1 {
+  width: 30%;
+  transform: rotate(30deg);
+}
+header .menu:hover .icon .tape2{
+  width: 100%;
+}
+header .menu:hover .icon .tape3 {
+  width: 30%;
+  transform: rotate(-30deg);
+}
+/* "Menu" turn burger into "X" when click */
+header .menu.opend .icon .tape1 {
+  width: 100%;
+  transform: rotate(44deg) translate(1px, 6px);
+  transition: 0.4s;
+}
+header .menu.opend .icon .tape2{
+  display: none;
+}
+header .menu.opend .icon .tape3 {
+  width: 100%;
+  transform: rotate(133deg) translate(2px, 4px);
+}
+/* "Menu" hover effect of the "x" */
+header .menu.opend:hover .icon .tape1 {
+  width: 100%;
+  transform: rotate(407deg) translate(1px, 6px);
+}
+header .menu.opend:hover .icon .tape3 {
+  width: 100%;
+  transform: rotate(489deg) translate(2px, 4px);
+}
+/* end burger icon */
+.scrolled { /* to change the background-color of the header when scroll*/
+  background-color: rgba(0, 0, 0, 0.9);
+}
+/* start nav slider */
+.nav-slider {
+  background-color: var(--light-black);
+  padding: 100px;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+  transition: right 1s;
+}
+.openMenu { /*to make the menu slide from the right*/
+  right: 0%;
+}
+.nav-slider .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  height: 100%;
+}
+.nav-slider h1 {
+  position: absolute;
+  font-size: 150px;
+  font-weight: 800;
+  opacity: 0.1;
+  z-index: -1;
+}
+.nav-slider ul {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.nav-slider ul li {
+  position: relative;
+  padding-left: 7px;
+  list-style: none;
+  z-index: 1;
+}
+/* the littel box before the link */
+.nav-slider ul li::before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  bottom: 14px;
+  height: 6px;
+  width: 6px;
+  background-color: var(--gray);
+}
+/* the background hover effect of the link */
+.nav-slider ul li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background-color: var(--gray);
+  transition: 0.4s;
+  z-index: -1;
+}
+.nav-slider ul li:hover::after {
+  width: 100%;
+}
+.nav-slider ul li a {
+  color: var(--white);
+  font-size: 45px;
+  letter-spacing: 2px;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+.nav-slider img {
+  width: 600px;
+  padding: 0 60px;
+  border-left: 1px solid white;
+}
+/* media queary of nav-slider */
+@media (max-width: 1799px) {
+  .nav-slider h1{
+    display: none;
+  }
+}
+@media (max-width: 1299px) {
+  .nav-slider {
+    padding: 0px;
+  }
+}
+@media (max-width: 991px) {
+  .nav-slider {
+    padding: 100px 0px;
+  }
+  .nav-slider .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .nav-slider ul {
+    width: 50%;
+    padding: 0;
+  }
+  .nav-slider ul li {
+    padding-left: 0px;
+  }
+  .nav-slider ul li::before {
+    display: none;
+  }
+  .nav-slider ul li a {
+    font-size: 35px;
+    text-align: center;
+  }
+  .nav-slider img {
+    width: 400px;
+    padding-left: 30px;
+    transform: rotate(90deg);
+  }
+}
+@media (max-width: 767px) {
+  header .wrapper {
+    padding: 0 10px;
+  }
+  .nav-slider ul li a {
+    font-size: 25px;
+  }
+  .nav-slider img {
+    width: 300px;
+  }
+}

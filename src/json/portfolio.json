@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "img": "img/portfolio-1.webp",
+    "title": "VR Games",
+    "aos": "zoom-in"
+  },
+  {
+    "id": 2,
+    "img": "img/portfolio-2.webp",
+    "title": "Cool Games",
+    "aos": "zoom-in"
+  },
+  {
+    "id": 3,
+    "img": "img/portfolio-3.webp",
+    "title": "GameBoy",
+    "aos": "zoom-in"
+  },
+  {
+    "id": 4,
+    "img": "img/portfolio-4.webp",
+    "title": "Mini Games",
+    "aos": "zoom-in"
+  },
+  {
+    "id": 5,
+    "img": "img/portfolio-5.webp",
+    "title": "Card Games",
+    "aos": "zoom-in"
+  },
+  {
+    "id": 6,
+    "img": "img/portfolio-6.webp",
+    "title": "Win Games",
+    "aos": "zoom-in"
+  }
+]

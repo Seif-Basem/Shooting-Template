@@ -1,0 +1,111 @@
+footer {
+  background-color: var(--light-black);
+}
+/* logo */
+footer .logo svg {
+  width: 200px;
+  height: 100px;
+}
+footer .logo svg path{
+  fill: var(--white);
+}
+footer .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+}
+/* social */
+footer .content .social .social-icons a svg {
+  width: 40px;
+  height: 40px;
+  transition: 0.4s;
+}
+footer .content .social .social-icons a svg.facebook {
+  fill: var(--white);
+}
+footer .content .social .social-icons a svg.instagram {
+  fill: var(--white);
+}
+footer .content .social .social-icons a svg.twitter {
+  fill: var(--white);
+}
+footer .content .social .social-icons a svg.facebook:hover {
+  fill: #1877f2;
+}
+footer .content .social .social-icons a svg.instagram:hover {
+  fill: #e1306c;
+}
+footer .content .social .social-icons a svg.twitter:hover {
+  fill: #aab8c2;
+}
+footer .content .social p{
+  margin-top: 20px;
+  width: 200px;
+}
+/* nav or links */
+footer nav h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+}
+footer nav ul {
+  padding-left: 0;
+}
+footer nav ul li {
+  list-style: none;
+}
+footer nav ul li a {
+  text-decoration: none;
+  color: var(--half-white);
+  transition: 0.4s;
+}
+footer nav ul li a:hover {
+  color: var(--white);
+}
+/* contact info */
+footer .location {
+  margin-bottom: 20px;
+}
+footer .location,
+footer .number {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  text-align: start;
+}
+footer .contactt img {
+  width: 20px;
+}
+footer .contactt p {
+  margin-bottom: 0;
+  width: 190px;
+  font-weight: 600;
+  color: var(--white);
+}
+/* copyright */
+footer .copyright {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid var(--half-white);
+}
+footer .copyright span{
+  font-weight: 700;
+  color: var(--light-blue);
+}
+/* media queary footer */
+@media (max-width: 991px) {
+  footer {
+    text-align: center;
+  }
+  footer .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .location,
+  footer .number {
+    text-align: center;
+  }
+}

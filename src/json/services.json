@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "img": "icons/laptop-code.svg",
+    "alt": "laptop-code-icon",
+    "head": "game development",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor, consectetur adipiscing elit sed do.",
+    "aos" : "fade-right"
+  },
+  {
+    "id": "2",
+    "img": "icons/pen-ruler.svg",
+    "alt": "pen-ruler-icon",
+    "head": "design",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor, consectetur adipiscing elit sed do.",
+    "aos" : "fade-up"
+  },
+  {
+    "id": "3",
+    "img": "icons/code.svg",
+    "alt": "code-icon",
+    "head": "programing",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor, consectetur adipiscing elit sed do.",
+    "aos" : "fade-left"
+  },
+  {
+    "id": "4",
+    "img": "icons/mobile-screen.svg",
+    "alt": "mobile-screen-icon",
+    "head": "responsive design",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor, consectetur adipiscing elit sed do.",
+    "aos" : "fade-right"
+  },
+  {
+    "id": "5",
+    "img": "icons/code.svg",
+    "alt": "code-icon",
+    "head": "clear code",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor, consectetur adipiscing elit sed do.",
+    "aos" : "fade-up"
+  },
+  {
+    "id": "6",
+    "img": "icons/laptop-code.svg",
+    "alt": "laptop-code-icon",
+    "head": "web development",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor, consectetur adipiscing elit sed do.",
+    "aos" : "fade-left"
+  }
+]

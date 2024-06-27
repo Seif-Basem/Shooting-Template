@@ -5,11 +5,11 @@
     <ImgCarouselSlider />
     <!-- landing content -->
     <div class="content">
-      <h1 data-aos="fade-right" data-aos-delay="1000">
+      <h1 data-aos="fade-right" data-aos-delay="1300">
         PORT <br />
         FOLIO
       </h1>
-      <div class="info" data-aos="fade-right" data-aos-delay="1200">
+      <div class="info" data-aos="fade-right" data-aos-delay="1400">
         <a href="about" aria-label="got to about page">about us</a>
         <div class="line"></div>
         <div class="welcome">
@@ -17,7 +17,7 @@
           our website
         </div>
       </div>
-      <div class="title" data-aos="fade-right" data-aos-delay="1300">
+      <div class="title" data-aos="fade-right" data-aos-delay="1500">
         <span> professional </span>
         Game Development
       </div>
@@ -174,7 +174,7 @@
     </div>
     <!-- about contnet -->
     <div class="content container-fluid">
-      <p data-aos="fade-right" data-delay="200">
+      <p data-aos="fade-right">
         Lorem ipsum dolor amet, consetur adipisicing elit. Accuss repundae
         mollitia laborum incidunt eum facilis quo harum quia, laborum incidunt
         eum
@@ -342,7 +342,7 @@
         v-for="service in services.slice(0, 3)"
         :key="service.id"
         :data-aos="service.aos"
-        data-aos-delay="500"
+        data-aos-delay="100"
       >
         <div class="number">{{ service.id }}</div>
         <img :src="require(`@/assets/${service.img}`)" :alt="service.alt" />
@@ -354,7 +354,7 @@
   <!-- end services -->
   <!-- start contact -->
   <section class="contactus" style="overflow: hidden">
-    <div class="container-fluid" data-aos="fade" data-aos-delay="300">
+    <div class="container-fluid" data-aos="fade" data-aos-delay="100">
       <h2>Start Your Project Now</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quisquam,

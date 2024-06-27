@@ -130,7 +130,7 @@
         <h1>ABOUT</h1>
       </div>
       <!-- start bio -->
-      <div class="bio" data-aos="fade" data-aos-delay="400">
+      <div class="bio" data-aos="zoom-in" data-aos-delay="100">
         <p>
           we are <span>Bolt Design</span> we build templates using programming
           languages
@@ -139,7 +139,7 @@
       <!-- end bio -->
       <!-- start team -->
       <div class="team">
-        <h2 data-aos="fade" data-aos-delay="400">meet our team</h2>
+        <h2 data-aos="zoom-in" data-aos-delay="100">meet our team</h2>
         <div class="our-team">
           <div
             class="box"

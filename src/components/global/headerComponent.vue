@@ -3,7 +3,7 @@
     <div
       class="container-fluid wrapper"
       data-aos="fade-down"
-      data-aos-delay="100"
+      data-aos-delay="500"
     >
       <!-- logo -->
       <div class="logo">

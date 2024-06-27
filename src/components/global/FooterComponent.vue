@@ -163,7 +163,7 @@
       <!-- content containes the three columns -->
       <div class="content">
         <!-- social -->
-        <div class="social" data-aos="fade-right" data-aos-delay="200">
+        <div class="social" data-aos="fade-right" data-aos-delay="100">
           <div class="social-icons row">
             <a
               class="col"
@@ -217,7 +217,7 @@
           </p>
         </div>
         <!-- nav or links -->
-        <nav data-aos="fade-up" data-aos-delay="200">
+        <nav data-aos="fade-up" data-aos-delay="100">
           <h2>Navigation</h2>
           <ul>
             <li><router-link to="/">Home</router-link></li>
@@ -230,7 +230,7 @@
           </ul>
         </nav>
         <!-- contact info -->
-        <div class="contactt" data-aos="fade-left" data-aos-delay="200">
+        <div class="contactt" data-aos="fade-left" data-aos-delay="100">
           <div class="location">
             <img src="../../assets/icons/location.svg" alt="location" />
             <p>Egyp, Giza, Inside The Sphinx, Room Number 220</p>

@@ -130,13 +130,13 @@
         <h1>services</h1>
       </div>
       <!-- start bio -->
-      <div class="bio" data-aos="fade" data-aos-delay="400">
+      <div class="bio" data-aos="zoom-in" data-aos-delay="100">
         <p>we are specialized at creating digital products for you</p>
       </div>
       <!-- end bio -->
       <!-- start our stats -->
       <div class="state">
-        <h2 data-aos="zoom-in" data-aos-delay="400">Our Awsome Stats</h2>
+        <h2 data-aos="zoom-in" data-aos-delay="100">Our Awsome Stats</h2>
         <div class="state-info">
           <div class="state-content" data-aos="fade-right">
             <svg
@@ -195,14 +195,14 @@
       <!-- end our stats -->
       <!-- start services section -->
       <div class="services-section">
-        <h2 data-aos="zoom-in" data-aos-delay="400">Our Services</h2>
+        <h2 data-aos="zoom-in" data-aos-delay="100">Our Services</h2>
         <div class="services-info">
           <div
             class="box col-4"
             v-for="service in services"
             :key="service.id"
             :data-aos="service.aos"
-            data-aos-delay="500"
+            data-aos-delay="100"
           >
             <div class="number">{{ service.id }}</div>
             <img

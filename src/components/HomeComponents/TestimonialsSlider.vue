@@ -29,7 +29,7 @@
       ></button>
     </div>
     <!-- testimonials in the slider -->
-    <div class="carousel-inner" data-aos="fade-up" data-aos-delay="200">
+    <div class="carousel-inner" data-aos="fade-up" data-aos-delay="100">
       <div class="carousel-item active">
         <div class="box">
           <div class="client">

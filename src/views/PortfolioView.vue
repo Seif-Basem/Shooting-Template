@@ -137,7 +137,7 @@
           :key="port.id"
           :data-aos="port.aos"
           data-aos-delay="0"
-          data-aos-duration="500"
+          data-aos-duration="200"
         >
           <img
             loading="lazy"

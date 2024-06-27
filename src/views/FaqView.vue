@@ -130,10 +130,10 @@
         <h1>faq</h1>
       </div>
       <!-- start accordion -->
-      <div class="bio" data-aos="fade" data-aos-delay="400">
+      <div class="bio" data-aos="zoom-in" data-aos-delay="100">
         <p>Here you will find all the answers of your questions</p>
       </div>
-      <div class="questionandanswer" data-aos="fade" data-aos-delay="400">
+      <div class="questionandanswer" data-aos="fade-up" data-aos-delay="100">
         <h2 class="h2">May be you find your question here</h2>
         <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="accordion-item">

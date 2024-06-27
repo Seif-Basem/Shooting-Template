@@ -130,7 +130,7 @@
         <h1>works</h1>
       </div>
       <!-- stasrt bio -->
-      <div class="bio" data-aos="fade" data-aos-delay="400">
+      <div class="bio" data-aos="zoom-in" data-aos-delay="100">
         <p>
           Lorem ipsum, dolor sit amet adipisicing elit. Animi facere minima
           dolor sit
@@ -138,7 +138,7 @@
       </div>
       <!-- end bio -->
       <!-- start brief -->
-      <div class="brief" data-aos="fade-right" data-aos-delay="400">
+      <div class="brief" data-aos="fade-right" data-aos-delay="100">
         <div class="photos">
           <img
             class="card-1"
@@ -156,7 +156,7 @@
             alt="work images"
           />
         </div>
-        <div class="info" data-aos="fade-left" data-aos-delay="400">
+        <div class="info" data-aos="slide-left" data-aos-delay="100">
           <h3>Work brief</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum

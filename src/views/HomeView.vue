@@ -10,7 +10,9 @@
         FOLIO
       </h1>
       <div class="info" data-aos="fade-right" data-aos-delay="1400">
-        <a href="about" aria-label="got to about page">about us</a>
+        <a href="" aria-label="got to about page">
+          <router-link to="/about">more about</router-link>
+        </a>
         <div class="line"></div>
         <div class="welcome">
           Welcome to <br />
@@ -360,7 +362,9 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quisquam,
         sit amet consectetur adipisicing elit. Quasi quisquam
       </p>
-      <a href="contact" aria-label="go to contact page">Contact Us Now</a>
+      <a href="" aria-label="go to contact page">
+        <router-link to="/contact">Contact Us Now</router-link>
+      </a>
     </div>
   </section>
   <!-- end contact -->

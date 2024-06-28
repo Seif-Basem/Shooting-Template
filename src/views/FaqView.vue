@@ -135,23 +135,24 @@
       </div>
       <div class="questionandanswer" data-aos="fade-up" data-aos-delay="100">
         <h2 class="h2">May be you find your question here</h2>
-        <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
                 class="accordion-button"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseOne"
+                data-bs-target="#collapseOne"
                 aria-expanded="true"
-                aria-controls="panelsStayOpen-collapseOne"
+                aria-controls="collapseOne"
               >
                 This is a Question alot of people asked about #1
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseOne"
+              id="collapseOne"
               class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
                 <strong>This is the an answer on the question</strong>
@@ -168,16 +169,17 @@
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo"
+                data-bs-target="#collapseTwo"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo"
+                aria-controls="collapseTwo"
               >
                 This is a Question alot of people asked about #2
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseTwo"
+              id="collapseTwo"
               class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
                 <strong>This is the an answer on the question</strong>
@@ -194,16 +196,17 @@
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree"
+                data-bs-target="#collapseThree"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree"
+                aria-controls="collapseThree"
               >
                 This is a Question alot of people asked about #3
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseThree"
+              id="collapseThree"
               class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
                 <strong>This is the an answer on the question</strong>
@@ -220,16 +223,17 @@
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseFour"
+                data-bs-target="#collapseFour"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseFour"
+                aria-controls="collapseFour"
               >
                 This is a Question alot of people asked about #4
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseFour"
+              id="collapseFour"
               class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
                 <strong>This is the an answer on the question</strong>
@@ -246,16 +250,17 @@
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseFive"
+                data-bs-target="#collapseFive"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseFive"
+                aria-controls="collapseFive"
               >
                 This is a Question alot of people asked about #5
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseFive"
+              id="collapseFive"
               class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
                 <strong>This is the an answer on the question</strong>
@@ -272,16 +277,17 @@
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseSix"
+                data-bs-target="#collapseSix"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseSix"
+                aria-controls="collapseSix"
               >
                 This is a Question alot of people asked about #6
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseSix"
+              id="collapseSix"
               class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
                 <strong>This is the an answer on the question</strong>
@@ -298,16 +304,17 @@
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseSeven"
+                data-bs-target="#collapseSeven"
                 aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseSeven"
+                aria-controls="collapseSeven"
               >
                 This is a Question alot of people asked about #7
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapseSeven"
+              id="collapseSeven"
               class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
                 <strong>This is the an answer on the question</strong>

@@ -22,7 +22,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   top: 50%;
   right: 1%;
   z-index: 1;

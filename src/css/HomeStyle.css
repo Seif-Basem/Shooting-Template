@@ -1,123 +1,14 @@
 .landing {
   position: relative;
 }
-/* start style for img and overlay of the img slider */
+/* start style for img of the img slider */
 .landing img {
   width: 100%;
   height: 100vh;
   object-fit: cover;
   user-select: none;
 }
-.overlay-to-top,
-.overlay-to-right {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-.overlay-to-top {
-  background: linear-gradient(0deg, rgba(0,0,0,0.8743872549019608) 0%, rgba(0,53,255,0) 100%);
-}
-.overlay-to-right {
-  background: linear-gradient(90deg, rgb(0 0 0 / 23%) 0%, rgba(0, 53, 255, 0) 100%);
-}
-/* end style for img and overlay of the img slider */
-/* start landing content */
-.landing .content {
-  position: absolute;
-  top: 30%;
-  left: 5%;
-  /* transform: translateY(-50%); */
-  text-align: start;
-  color: white;
-}
-.landing .content h1 {
-  font-size: 130px;
-  font-weight: 800;
-  line-height: 0.8;
-  margin-bottom: 30px;
-}
-.landing .content .info {
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  gap: 40px;
-  margin-bottom: 40px;
-}
-.landing .content .info a {
-  color: white;
-  transition: 0.4s;
-  text-decoration: none;
-}
-.landing .content .info a:hover {
-  text-decoration: underline;
-}
-.landing .content .info .line {
-  width: 100px;
-  height: 2px;
-  background-color: white;
-}
-.landing .content .info .welcome {
-  font-size: 22px;
-  line-height: 1;
-}
-.landing .content .title {
-  font-size: 50px;
-  font-family: var(--fancy-font);
-  letter-spacing: 1.5px;
-}
-.landing .content .title {
-  text-transform: uppercase;
-}
-.landing .content .title span {
-  text-transform: lowercase;
-  font-style: italic;
-  font-size: 30px;
-  padding-right: 8px;
-}
-/* media queary landing content */
-@media (max-width: 991px) {
-  .landing .content h1 {
-    font-size: 80px;
-    margin-bottom: 25px;
-  }
-  .landing .content .info {
-    gap: 30px;
-    margin-bottom: 30px;
-  }
-  .landing .content .title {
-    font-size: 30px;
-  }
-  .landing .content .title span{
-    font-size: 20px;
-    padding-right: 5px;
-  }
-}
-@media (max-width: 767px) {
-  .landing .content h1 {
-    font-size: 50px;
-  }
-  .landing .content .info {
-    gap: 10px;
-  }
-  .landing .content .info a {
-    font-size: 13px;
-  }
-  .landing .content .info .line {
-    width: 60px;
-  }
-  .landing .content .info .welcome {
-    font-size: 15px;
-  }
-  .landing .content .title {
-    font-size: 20px;
-  }
-  .landing .content .title span{
-    font-size: 10px;
-  }
-}
-/* end landing content */
+/* end style for img of the img slider */
 .about, /* white spacig of the home page */
 .services,
 .testimonials,
@@ -224,25 +115,17 @@
 }
 .services .box {
   background-color: var(--light-black);
-  text-align: center;
+  text-align: start;
   padding: 33px 20px;
   width: 350px;
   border-top: 3px solid var(--light-blue);
   position: relative;
 }
-.services .box .number {
-  position: absolute;
-  top: -27px;
-  left: 13px;
-  color: var(--perly-white);
-  font-size: 80px;
-  font-weight: 700;
-}
 .services .box img {
-  width: 70px;
-  height: 70px;
+  width: 37px;
+  height: 37px;
   object-fit: contain;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .services .box h4 {
   text-transform: uppercase;
@@ -252,6 +135,7 @@
 }
 .services .box p {
   font-size: 17px;
+  color: var(--half-white);
 }
 /* end services section*/
 /* start sontact */

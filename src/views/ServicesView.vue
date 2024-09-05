@@ -204,7 +204,6 @@
             :data-aos="service.aos"
             data-aos-delay="100"
           >
-            <div class="number">{{ service.id }}</div>
             <img
               :src="require(`@/assets/${service.img}`)"
               :alt="services.alt"

@@ -3,27 +3,6 @@
   <section class="landing" style="overflow: hidden">
     <!-- img slider component -->
     <ImgCarouselSlider />
-    <!-- landing content -->
-    <div class="content">
-      <h1 data-aos="fade-right" data-aos-delay="1300">
-        PORT <br />
-        FOLIO
-      </h1>
-      <div class="info" data-aos="fade-right" data-aos-delay="1400">
-        <a href="" aria-label="got to about page">
-          <router-link to="/about">more about</router-link>
-        </a>
-        <div class="line"></div>
-        <div class="welcome">
-          Welcome to <br />
-          our website
-        </div>
-      </div>
-      <div class="title" data-aos="fade-right" data-aos-delay="1500">
-        <span> professional </span>
-        Game Development
-      </div>
-    </div>
   </section>
   <!-- end landing -->
   <!-- start about -->
@@ -169,6 +148,7 @@
         <p
           class="text-uppercase fs-3 fw-bold col-12 col-lg-6 text-center lh-1"
           data-aos="zoom-in-up"
+          style="color: var(--half-white)"
         >
           all you could want to know about us
         </p>
@@ -332,6 +312,7 @@
         <p
           class="text-uppercase fs-3 fw-bold col-12 col-lg-6 text-center lh-1"
           data-aos="zoom-in-up"
+          style="color: var(--half-white)"
         >
           what we offer is going to blow your mind
         </p>
@@ -346,7 +327,6 @@
         :data-aos="service.aos"
         data-aos-delay="100"
       >
-        <div class="number">{{ service.id }}</div>
         <img :src="require(`@/assets/${service.img}`)" :alt="service.alt" />
         <h4>{{ service.head }}</h4>
         <p>{{ service.paragraph }}</p>
@@ -511,6 +491,7 @@
         <p
           class="text-uppercase fs-3 fw-bold col-12 col-lg-6 text-center lh-1"
           data-aos="zoom-in-up"
+          style="color: var(--half-white)"
         >
           what our clients think about us
         </p>

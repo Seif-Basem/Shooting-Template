@@ -1,4 +1,4 @@
-[Shooting Template](Shooting_Template.png)
+[Shooting Template](src/assets/img/Shooting_Template.png)
 Hello! and welcome to Shooting template,
 -
 ## OverView

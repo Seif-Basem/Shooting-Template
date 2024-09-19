@@ -192,7 +192,7 @@
         <div class="left">
           <span>web design</span>
           <h2>
-            New template for <br />
+            Price template for <br />
             web design
           </h2>
         </div>
@@ -210,7 +210,7 @@
         <div class="left">
           <span>web design</span>
           <h2>
-            New template for <br />
+            Ghost template for <br />
             web design
           </h2>
         </div>
@@ -228,7 +228,7 @@
         <div class="left">
           <span>web design</span>
           <h2>
-            New template for <br />
+            Sniper template for <br />
             web design
           </h2>
         </div>
@@ -246,7 +246,7 @@
         <div class="left">
           <span>web design</span>
           <h2>
-            New template for <br />
+            CartWheel template for <br />
             web design
           </h2>
         </div>

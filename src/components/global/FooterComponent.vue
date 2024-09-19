@@ -169,7 +169,6 @@
               class="col"
               href="https://www.facebook.com"
               aria-label="to your facebook"
-              target="_blank"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 320 512"
@@ -184,7 +183,6 @@
               class="col"
               href="https://www.instagram.com"
               aria-label="to your instagram"
-              target="_blank"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -199,7 +197,6 @@
               class="col"
               href="https://www.twitter.com"
               aria-label="to your twitter"
-              target="_blank"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"

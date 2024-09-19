@@ -95,6 +95,9 @@
     width: 300px;
     font-size: 35px;
   }
+  .about .bio p {
+    font-size: 30px;
+  }
   .about .team h2 {
     font-size: 25px;
   }
